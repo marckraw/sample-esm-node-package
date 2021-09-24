@@ -5,7 +5,11 @@
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
-  "exports": "./js/exported.js",
+  "exports": {
+    ".": "./js/exported.js",
+    "./myModule": "./js/modules/myModule.js",
+    "./package.json": "./package.json"
+  },
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "ISC",
   "scripts": {
