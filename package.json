@@ -1,6 +1,6 @@
 {
   "name": "sample-esm-node-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
@@ -21,4 +21,3 @@
   },
   "homepage": "https://github.com/marckraw/sample-esm-node-package#readme"
 }
-
